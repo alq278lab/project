@@ -1,0 +1,24 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - conda==23.9.0
+  - setuptools
+  - pip
+  - wheel
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst[version='>=1.0.0a0,<2.0.0']
+  - console_shortcut_miniconda
+  - powershell_shortcut_miniconda
+  - pandas
+  - jupyterlab[version='<4']
+  - jupyterlab-spellchecker
+  - jupyterlab-git
+  - jupyter-book
+  - pyppeteer
+  - nbconvert
+  - nb_conda_kernels
+prefix: C:\Users\aquiapo\AppData\Local\miniconda3
